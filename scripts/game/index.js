@@ -4,9 +4,9 @@ angular.module('app.game',[])
 		.state('game',{
 			url: '/game',
 			abstract: true,
-			template: '<div class='game'>\
-		                  <div ui-view></div>\
-		               </div>'
+	      	template: "<div class='game'>\
+	                  <div ui-view></div>\
+	                </div>"
 		})
 
 		.state('game.play', {
